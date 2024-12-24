@@ -1,7 +1,7 @@
 import React from "react";
 
 const EighthItemGrid = () => {
-  return <div>EighthItemGrid</div>;
+  return <div> Grow followers with non-stop content.</div>;
 };
 
 export default EighthItemGrid;

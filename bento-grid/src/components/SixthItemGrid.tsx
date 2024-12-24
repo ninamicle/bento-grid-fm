@@ -1,7 +1,7 @@
 import React from "react";
 
 const SixthItemGrid = () => {
-  return <div>SixthItemGrid</div>;
+  return <div> Maintain a consistent posting schedule.</div>;
 };
 
 export default SixthItemGrid;

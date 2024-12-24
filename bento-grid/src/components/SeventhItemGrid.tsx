@@ -1,7 +1,7 @@
 import React from "react";
 
 const SeventhItemGrid = () => {
-  return <div>SeventhItemGrid</div>;
+  return <div> {">"}56% faster audience growth</div>;
 };
 
 export default SeventhItemGrid;

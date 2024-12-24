@@ -1,7 +1,5 @@
-import React from "react";
-
 const FirstItemGrid = () => {
-  return <div>FirstItemGrid</div>;
+  return <div>Create and schedule content quicker.</div>;
 };
 
 export default FirstItemGrid;

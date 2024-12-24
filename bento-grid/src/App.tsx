@@ -3,7 +3,6 @@ import EighthItemGrid from "./components/EighthItemGrid";
 import FifthItemGrid from "./components/FifthItemGrid";
 import FirstItemGrid from "./components/FirstItemGrid";
 import FourthtemGrid from "./components/FourthtemGrid";
-import NinthItemGrid from "./components/NinthItemGrid";
 import SecondItemGrid from "./components/SecondItemGrid";
 import SeventhItemGrid from "./components/SeventhItemGrid";
 import SixthItemGrid from "./components/SixthItemGrid";
@@ -23,7 +22,16 @@ function App() {
           <SixthItemGrid />
           <SeventhItemGrid />
           <EighthItemGrid />
-          <NinthItemGrid />
+        </div>
+        <div className="text-[11px] text-center">
+          Challenge by
+          <a
+            className="pl-1 text-link"
+            href="https://www.frontendmentor.io?ref=challenge"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by <a href="#">Nina Micle</a>.
         </div>
       </div>
     </>
