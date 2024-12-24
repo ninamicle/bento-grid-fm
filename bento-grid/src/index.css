@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "DMSans-Medium";
+  src: url("../../DMSans-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DMSans-MediumItalic";
+  src: url("../../DMSans-MediumItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DMSans-Regular";
+  src: url("../../DMSans-Regular.ttf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
