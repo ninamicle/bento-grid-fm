@@ -15,7 +15,7 @@ function App() {
         <div
           className="grid grid-cols-1 grid-rows-7 grid-flow-col
          md:grid-cols-1 md:grid-rows-7 md:grid-flow-col 
-         lg:grid-cols-5 lg:grid-rows-5 gap-4"
+         lg:grid-cols-5 lg:grid-rows-6 gap-4"
         >
           <div className="row-span-3">
             <FirstItemGrid />
