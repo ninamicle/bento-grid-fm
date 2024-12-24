@@ -1,7 +1,14 @@
-import React from "react";
-
 const EighthItemGrid = () => {
-  return <div> Grow followers with non-stop content.</div>;
+  return (
+    <div className=" flex bg-purple-500 rounded-md">
+      <img
+        className="w-1/4"
+        src="/images/illustration-grow-followers.webp"
+        alt="Schedule posts"
+      />
+      <div> Grow followers with non-stop content.</div>
+    </div>
+  );
 };
 
 export default EighthItemGrid;

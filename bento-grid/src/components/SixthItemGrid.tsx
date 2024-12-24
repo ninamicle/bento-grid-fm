@@ -1,7 +1,13 @@
-import React from "react";
-
 const SixthItemGrid = () => {
-  return <div> Maintain a consistent posting schedule.</div>;
+  return (
+    <div className="bg-yellow-500 rounded-md">
+      Maintain a consistent posting schedule.
+      <img
+        src="images/illustration-consistent-schedule.webp"
+        alt="Audience growth"
+      />
+    </div>
+  );
 };
 
 export default SixthItemGrid;

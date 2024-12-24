@@ -12,18 +12,35 @@ function App() {
   return (
     <>
       <div>
-        <h1 className="underline">Vite + React</h1>
-        <div className="grid">
-          <FirstItemGrid />
-          <SecondItemGrid />
-          <ThirdItemGrid />
-          <FourthtemGrid />
-          <FifthItemGrid />
-          <SixthItemGrid />
-          <SeventhItemGrid />
-          <EighthItemGrid />
+        <div className="grid grid-cols-1 grid-rows-7 grid-flow-col lg:grid-cols-4 lg:grid-rows-6 gap-4">
+          <div className="row-span-3">
+            <FirstItemGrid />
+          </div>
+          <div className="col-span-2 row-span-2">
+            <SecondItemGrid />
+          </div>
+          <div className="row-span-3 col-start-1 row-start-4">
+            <FourthtemGrid />
+          </div>
+          <div className="row-span-2 col-start-2 row-start-3">
+            <FifthItemGrid />
+          </div>
+          <div className="row-span-2 col-start-2 row-start-5">
+            <SeventhItemGrid />
+          </div>
+          <div className="row-span-2 col-start-3 row-start-3">
+            <SixthItemGrid />
+          </div>
+          <div className="col-span-2 row-span-2 col-start-3 row-start-5">
+            <EighthItemGrid />
+          </div>
+          <div className="row-span-4 col-start-4 row-start-1">
+            {" "}
+            <ThirdItemGrid />
+          </div>
         </div>
-        <div className="text-[11px] text-center">
+
+        <div className="text-[11px] text-center mt-8">
           Challenge by
           <a
             className="pl-1 text-link"
