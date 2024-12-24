@@ -12,7 +12,11 @@ function App() {
   return (
     <>
       <div>
-        <div className="grid grid-cols-1 grid-rows-7 grid-flow-col lg:grid-cols-4 lg:grid-rows-6 gap-4">
+        <div
+          className="grid grid-cols-1 grid-rows-7 grid-flow-col
+         md:grid-cols-1 md:grid-rows-7 md:grid-flow-col 
+         lg:grid-cols-4 lg:grid-rows-6 gap-4"
+        >
           <div className="row-span-3">
             <FirstItemGrid />
           </div>
