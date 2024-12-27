@@ -10,9 +10,9 @@ const FifthItemGrid = () => {
 };
 
 const ContentImage = () => (
-  <div className="w-64 pl-1">
+  <div className="w-[20rem]">
     <img
-      className="ml-10"
+      className="ml-12"
       src="images/illustration-multiple-platforms.webp"
       alt="Multiple platforms"
     />
